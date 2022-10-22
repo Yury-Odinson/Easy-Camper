@@ -7,8 +7,6 @@ html {
     position: relative;
     max-width: 1440px;
     margin: 0 auto;
-        // background-color: aqua;
-    // height: 300px;
 }
 
 .cube__main {
@@ -44,6 +42,23 @@ html {
     height: 32px;
 }
 
+.button {
+    display: flex;
+    padding: 0 70px;
+    margin: 29px 62px 73px;
+    background-color: #F78065;
+    width: 250px;
+    height: 65px;
+}
+
+.button__logo,
+.button__text {
+    margin: auto;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+}
+
 .description {
     position: absolute;
     width: 741px;
@@ -69,30 +84,13 @@ html {
         font-family: 'Montserrat', sans-serif;
         font-size: 2rem;
         color: rgba(0, 0, 0, 0.5);
-    }
-
-    &-button {
-        display: flex;
-        padding: 0 70px;
-        margin: 29px 62px 73px;
-        background-color: #F78065;
-        width: 250px;
-        height: 65px;
-    }
-
-    &-button__logo,
-    &-button__text {
-        margin: auto;
-        color: #FFF;
-        font-size: 1.8rem;
-    }
+    }   
 }
 
 .about {
 
     display: flex;
     justify-content: space-between;
-    // border: 2px solid red;
 
     &-cards {
         margin: 400px 0 0;
@@ -117,12 +115,9 @@ html {
         font-weight: 600;
         color: #F78065;
     }
-
 }
 
 .services {
-
-    // display: flex;
 
     &__title {
         padding: 250px 0 0;
@@ -137,7 +132,6 @@ html {
     }
 
     &-cards {
-            // border: 2px solid red;
         max-width: 280px;
     }
 
@@ -153,6 +147,7 @@ html {
     }
 
     &-cards__description {
+        min-height: 50px;
         font-family: 'Montserrat', sans-serif;
         font-size: 1.4rem;
         color: rgba(0, 0, 0, 0.5);
@@ -165,11 +160,60 @@ html {
         font-weight: 600;
         color: #F78065;
     }
+}
 
+.managers {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 260px 0 0;
+
+    &-join {
+        max-width: 330px;
+    }
+
+    &-join__title {
+        font-family: 'Merriweather', serif;
+        font-size: 3.6rem;
+        font-weight: 600;
+
+    }
+
+    &-join__description {
+        padding: 30px 0 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.8rem;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    &-button {
+        margin: 69px 0;
+        padding: 0 90px;
+    }
+
+    &-cards__name {
+        padding-top: 20px;
+        font-family: 'Merriweather', serif;
+        font-size: 2.4rem;
+        font-weight: 600;
+    }
+
+    &-cards__city {
+        padding: 10px 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4rem;
+        color: #3F3D56;
+    }
+
+    &-cards__link {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.8rem;
+        color: #F78065;
+
+    }
 
 
 }
-
 
 
 

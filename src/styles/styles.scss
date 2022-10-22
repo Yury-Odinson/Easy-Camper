@@ -1,0 +1,139 @@
+html {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+        // background-color: aqua;
+    // height: 300px;
+}
+
+.cube__main {
+    position: absolute;
+    top: 40px;
+    left: 122px;
+    width: 32px;
+    height: 32px;
+}
+
+.menu {
+    position: absolute;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    top: 30px;
+    right: 122px;
+    width: 86px;
+    height: 53px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.menu__arrow {
+    margin: auto;
+    width: 11px;
+    height: 6px;
+}
+
+.menu__icon {
+    margin: auto;
+    width: 32px;
+    height: 32px;
+}
+
+.description {
+    position: absolute;
+    width: 741px;
+    height: 537px;
+    background-color: #FFF;
+    top: 60%;
+    left: 63px;
+    box-shadow: 5px 5px  75px rgba(0, 0, 0, 0.3);
+
+    &-title {
+        padding: 98px 136px 0 64px;
+        font-size: 3.9rem;
+        font-weight: 600;
+    }
+
+    &-title__red {
+        color: #F78065;
+    }
+
+    &__text {
+        padding: 29px 136px 0 64px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        color: rgb(95, 95, 95);
+    }
+
+    &-button {
+        display: flex;
+        padding: 0 70px;
+        margin: 29px 62px 73px;
+        background-color: #F78065;
+        width: 250px;
+        height: 65px;
+    }
+
+    &-button__logo,
+    &-button__text {
+        margin: auto;
+        color: #FFF;
+        font-size: 1.8rem;
+    }
+}
+
+.about {
+
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+
+    &-cards {
+        margin: 400px 0 0;
+        max-width: 400px;
+    }
+
+    &-cards__title {
+        padding: 70px 0 0;
+        font-size: 2.4rem;
+        font-weight: 600;
+    }
+
+    &-cards__description {
+        padding: 30px 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.6rem;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    &-cards__tagline {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: #F78065;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lorem {
+    position: absolute;
+    padding: 1000px 0;
+}
+
+

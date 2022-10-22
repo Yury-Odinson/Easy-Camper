@@ -131,28 +131,6 @@ html {
         justify-content: space-between;
     }
 
-    &-cards {
-        max-width: 280px;
-    }
-
-    &-cards__image {
-        padding: 100px 0 0;
-    }
-
-    &-cards__title {
-        padding: 30px 0 ;
-        font-family: 'Merriweather', serif;
-        font-size: 2.2rem;
-        font-weight: 700;
-    }
-
-    &-cards__description {
-        min-height: 50px;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 1.4rem;
-        color: rgba(0, 0, 0, 0.5);
-    }
-
     &-cards__link {
         padding: 20px 0;
         font-family: 'Montserrat', sans-serif;
@@ -161,6 +139,31 @@ html {
         color: #F78065;
     }
 }
+
+.cards {
+    max-width: 280px;
+}
+
+.cards__image {
+    padding: 100px 0 0;
+}
+
+.cards__title {
+    padding: 30px 0;
+    font-family: 'Merriweather', serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.cards__description {
+    min-height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
 
 .managers {
 
@@ -209,13 +212,34 @@ html {
         font-family: 'Montserrat', sans-serif;
         font-size: 1.8rem;
         color: #F78065;
+    }
+}
+
+.advantares {
+
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+    
+    }
+
+    &__title {
+        padding-top: 260px;
+        font-family: 'Merriweather', serif;
+        font-size: 3.6rem;
+        font-weight: 600;
 
     }
 
+    &-cards {
+        max-width: 390px;
+    }
 
+    &-cards__title {
+        height: 140px;
+        padding: 64px 0 0;
+    }
 }
-
-
 
 
 

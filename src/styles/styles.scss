@@ -1,9 +1,5 @@
-html {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
 .wrapper {
+    max-width: 1440px;
     position: relative;
     max-width: 1440px;
     margin: 0 auto;
@@ -60,6 +56,8 @@ html {
 }
 
 .description {
+    max-width: 1440px;
+    margin: 0 auto;
     position: absolute;
     width: 741px;
     height: 537px;
@@ -88,7 +86,8 @@ html {
 }
 
 .about {
-
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 
@@ -118,6 +117,8 @@ html {
 }
 
 .services {
+    max-width: 1440px;
+    margin: 0 auto;
 
     &__title {
         padding: 250px 0 0;
@@ -162,11 +163,9 @@ html {
     color: rgba(0, 0, 0, 0.5);
 }
 
-
-
-
 .managers {
-
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 260px 0 0;
@@ -179,7 +178,6 @@ html {
         font-family: 'Merriweather', serif;
         font-size: 3.6rem;
         font-weight: 600;
-
     }
 
     &-join__description {
@@ -216,11 +214,12 @@ html {
 }
 
 .advantares {
+    max-width: 1440px;
+    margin: 0 auto;
 
     &-wrapper {
         display: flex;
         justify-content: space-between;
-    
     }
 
     &__title {
@@ -228,7 +227,6 @@ html {
         font-family: 'Merriweather', serif;
         font-size: 3.6rem;
         font-weight: 600;
-
     }
 
     &-cards {
@@ -241,16 +239,62 @@ html {
     }
 }
 
+.footer {
+    width: 100%;
+    background-color: #F7F7F7;
 
+    &-wrapper {
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 96px 0;
+        margin-top: 250px;
+    }
 
+    &-column__title {
+        font-family: 'Merriweather', serif;
+        font-size: 2.4rem;
+        font-weight: 600;
+    }
 
+    &-column__description {
+        padding-top: 16px;
+        font-family: 'Merriweather', serif;
+        font-size: 4.8rem;
+        font-weight: 600;
+        max-width: 300px;
+    }
 
+    &-column-li__main {
+        padding-bottom: 24px;
+        font-family: 'Merriweather', serif;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
 
+    &-column-li__list {
+        padding-bottom: 24px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4rem;
+    }
 
+    &__separator {
+        margin: 0 auto;
+        width: 1440px;
+    }
 
-.lorem {
-    position: absolute;
-    padding: 1000px 0;
+    &-copyright {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 28px 0 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-copyright-column__item {
+        padding-left: 48px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4rem;
+    }
 }
-
-
